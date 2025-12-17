@@ -1,0 +1,171 @@
+/* ===== RESET ===== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+/* ===== HEADER ===== */
+
+.header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.header h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+
+/* ===== BANNER ===== */
+
+.banner {
+    position: relative;
+    height: 150vh;
+    background: url("../img/banner.jpg") center/cover no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    max-width: 680px;
+}
+
+.content h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* BUTTON */
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #222;
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background: #0a3d62;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f1c40f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-col ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #f1c40f;
+}
+
+
+/* SOCIAL */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+
+/* COPYRIGHT */
+
+.copyright {
+    background: #02203a;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}

@@ -1,0 +1,120 @@
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          color: #333;
+      }
+      
+      .header {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 0;
+          text-align: center;
+      }
+      
+      h1 {
+          margin: 0;
+          font-size: 2.5em;
+          text-align: center;
+      }
+      
+      ul li {
+          list-style-type: none;
+          display: inline;
+          margin: 0 15px;
+      }
+      
+      nav a {
+          color: #fff;
+          margin: 0 15px;
+          text-decoration: none;
+      }
+      
+      nav a:hover {
+          text-decoration: underline;
+      }
+      
+      .gallery {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 15px;
+      }
+      
+      .gallery img {
+          width: 100%;
+          height: 350px;
+          margin: 10px 0;
+          border: 2px solid #ccc;
+          transition: transform 0.3s;
+          border-radius: 6px;
+      }
+      
+      .gallery img:hover {
+          transform: scale(1.05);
+          border-color: #777;
+      }
+      
+      .footer {
+          background: #0a3d62;
+          color: #fff;
+          padding-top: 40px;
+      }
+      
+      .top {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          gap: 30px;
+          padding-bottom: 30px;
+      }
+      
+      .footer-col h3 {
+          margin-bottom: 15px;
+          border-bottom: 2px solid #f1c40f;
+          display: inline-block;
+          padding-bottom: 5px;
+      }
+      
+      .footer-col ul {
+          padding: 0;
+          list-style: none;
+      }
+      
+      .footer-col ul li {
+          margin: 10px 0;
+      }
+      
+      .footer-col ul li a {
+          color: #ddd;
+          text-decoration: none;
+      }
+      
+      .footer-col ul li a:hover {
+          color: #f1c40f;
+      }
+      
+      .social-icons {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+      }
+      
+      .social-icons img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          transition: 0.3s;
+      }
+      
+      .social-icons img:hover {
+          transform: scale(1.1);
+      }
+      
+      .copyright {
+          background: #02203a;
+          color: #ccc;
+          text-align: center;
+          padding: 15px;
+          font-size: 14px;
+      }
