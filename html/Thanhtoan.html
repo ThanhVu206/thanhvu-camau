@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/thanhtoan.css">
+</head>
+
+<body>
+    <h2>THÔNG TIN ĐƠN HÀNG</h2>
+
+    <img id="img" width="200"><br>
+    <b id="name"></b>
+    <p>Giá: <span id="price"></span> ₫</p>
+
+    <h3>Thông tin khách hàng</h3>
+    <input type="text" placeholder="Họ tên"><br><br>
+    <input type="number" placeholder="Số điện thoại"><br><br>
+
+    <button onclick="datHang()">Đặt hàng</button>
+
+    <script>
+        document.getElementById("img").src =
+            localStorage.getItem("img");
+
+        document.getElementById("name").innerText =
+            localStorage.getItem("name");
+
+        document.getElementById("price").innerText =
+            Number(localStorage.getItem("price"))
+            .toLocaleString("vi-VN");
+
+        function datHang() {
+            alert("Đặt hàng thành công!");
+            localStorage.clear();
+        }
+    </script>
+</body>
+
+</html>
