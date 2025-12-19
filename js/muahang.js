@@ -4,5 +4,5 @@ function muaHang(img, name, price) {
     localStorage.setItem("price", price);
 
     // LUÔN ĐÚNG cho mọi trang trong /html
-    window.location.href = "thanhtoan.html";
+    window.location.href = "./thanhtoan.html";
 }
