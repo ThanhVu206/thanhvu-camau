@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <h2>THÔNG TIN ĐƠN HÀNG</h2>
+    <a href="../index.html" class="back-home">⬅ Về Trang Chủ</a>
 
+    <h2>THÔNG TIN ĐƠN HÀNG</h2>
     <img id="img" width="200"><br>
     <b id="name"></b>
     <p>Giá: <span id="price"></span> ₫</p>
@@ -20,23 +21,8 @@
     <input type="number" placeholder="Số điện thoại"><br><br>
 
     <button onclick="datHang()">Đặt hàng</button>
+    <script src="../js/thanhtoan.js"></script>
 
-    <script>
-        document.getElementById("img").src =
-            localStorage.getItem("img");
-
-        document.getElementById("name").innerText =
-            localStorage.getItem("name");
-
-        document.getElementById("price").innerText =
-            Number(localStorage.getItem("price"))
-            .toLocaleString("vi-VN");
-
-        function datHang() {
-            alert("Đặt hàng thành công!");
-            localStorage.clear();
-        }
-    </script>
 </body>
 
 </html>

@@ -155,13 +155,6 @@
           display: block;
       }
       
-      .product-list {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-          gap: 20px;
-          padding: 20px;
-      }
-      
       .product-card {
           background: #fff;
           border-radius: 8px;
