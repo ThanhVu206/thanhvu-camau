@@ -4,6 +4,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -82,12 +85,13 @@ nav a:hover {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 12px 14px;
+    width: 95%;
+    padding: 12px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -201,6 +205,11 @@ img {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 15px;
     text-align: center;
+}
+
+.contract-title {
+    margin-bottom: 20px;
+    color: white
 }
 
 

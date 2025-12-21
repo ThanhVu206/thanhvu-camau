@@ -1,0 +1,57 @@
+body {
+    background: #222;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.forgot-box {
+    width: 350px;
+    margin: 120px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forgot-box h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.forgot-box p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.forgot-box input {
+    width: 94%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.forgot-box button {
+    width: 100%;
+    padding: 10px;
+    background: #ffd700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot-box a {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#error {
+    color: red;
+    font-size: 13px;
+    margin-top: 8px;
+}
