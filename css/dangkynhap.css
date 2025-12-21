@@ -4,6 +4,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .header {
@@ -16,6 +19,13 @@ body {
 .header h1 {
     margin: 0 0 8px;
     font-size: 32px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    background-color: #f4f4f4;
 }
 
 nav ul {
@@ -54,11 +64,12 @@ nav a:hover {
 }
 
 .auth-box input {
-    width: 100%;
+    width: 94%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 6px;
     border: 1px solid #ccc;
+    font-size: 16px;
 }
 
 .auth-box button {
