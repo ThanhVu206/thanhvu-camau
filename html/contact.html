@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Liên Hệ | Không Gian Nghệ Thuật</title>
     <link rel="stylesheet" href="../css/contract.css">
 </head>
 
 <body>
     <header class="header">
-        <h1>KHÔNG GIAN NGHỆ THUẬT</h1>
+        <div class="logo-box"><img src="../img/LOGO.png" alt="ArtSpace logo">
+            <div class="logo-text">
+                <h1>ArtSpace</h1>
+                <p>Không Gian Nghệ Thuật</p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="../html/gioithieu.html">Giới Thiệu</a></li>
                 <li><a href="../html/gallery.html">Bộ Sưu Tập</a></li>
                 <li><a href="contact.html">Liên Hệ</a></li>
                 <li><a href="dangnhap.html">Đăng Nhập</a></li>
@@ -29,9 +35,8 @@
 
         <form id="contactForm" class="contact-form">
             <input type="text" id="name" placeholder="Họ và tên">
-            <input type="text" id="email" placeholder="Email / Gmail">
+            <input type="text" id="email" placeholder="Email / Gmail" required>
             <textarea id="message" placeholder="Nội dung tin nhắn"></textarea>
-
             <button type="submit">Gửi yêu cầu</button>
         </form>
     </main>

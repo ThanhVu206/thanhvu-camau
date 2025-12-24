@@ -4,13 +4,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
 }
 
 .header {
     background: #222;
     color: #fff;
-    text-align: center;
-    padding: 18px 0;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* CĂN GIỮA TOÀN BỘ */
 }
 
 .header h1 {
@@ -27,6 +32,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 18px;
+    font-family: 'pacifico', cursive;
 }
 
 nav a {
@@ -37,6 +43,46 @@ nav a {
 
 nav a:hover {
     color: #f1c40f;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo-box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ff7a00;
+    font-family: 'pacifico', cursive;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #f0ecec;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #ff7a00;
 }
 
 .gallery {
